@@ -1,0 +1,21 @@
+{
+  "name": "unwrap-react",
+  "version": "1.0.0",
+  "description": "React's JSX.IntrinsicElements Unwrapped -- confer absolute control of the props comprising Reacts Core building blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/DopamineDriven/unwrap-react.git",
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "Andrew Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DopamineDriven/unwrap-react/issues"
+  },
+  "homepage": "https://github.com/DopamineDriven/unwrap-react#readme",
+  "devDependencies": {}
+}
