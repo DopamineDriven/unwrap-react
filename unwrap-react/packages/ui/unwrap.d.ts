@@ -5,11 +5,11 @@ export declare module Unwrap {
    * it extend the Array (T in Array<infer U> ) infer the child type U within;
    * if no array is present T is returned unchanged
    */
-  type ExciseEnumerble = T extends Array<infer U> ? U : T;
+  type ExciseEnumerble<T> = T extends Array<infer U> ? U : T;
 
   type Enumerable<T> = T extends Array<infer U> | infer U
     ? Array<U> | U
-    : Array<T[keyof T]> | T[keyof T];
+    : Array<T> | T;
 
   type RecursiveOptional<T> = { [P in keyof T]?: RecursiveOptional<T[P]> };
 
