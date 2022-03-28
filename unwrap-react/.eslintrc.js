@@ -1,0 +1,1 @@
+export { default as eslint } from "./packages/unwrap-config/eslint-preset.json";

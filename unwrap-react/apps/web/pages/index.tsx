@@ -1,6 +1,6 @@
 import Image, { ImageProps } from "next/image";
-import { Button, ExpressVpn } from "ui";
-import Unwrap from "ui/unwrap"; // monorepo namespace declaration transpiled as a pkg in node_modules 🚀 
+import { Button, ExpressVpn } from "unwrap";
+import Unwrap from "unwrap/unwrap"; // monorepo namespace declaration transpiled as a pkg in node_modules 🚀 
 import turboIntellisense from "../public/turbo-ftw.png";
 
 const Web = ({
@@ -39,6 +39,7 @@ const Web = ({
           ...span
         }}
       />
+      <ExpressVpn svg={{width: 24, height: 24}}/>
       <pre lang="typescript" {...pre}>
         {JSON.stringify(
           {

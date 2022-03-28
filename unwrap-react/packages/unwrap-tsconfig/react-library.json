@@ -6,6 +6,12 @@
     "lib": ["ESNext"],
     "module": "ESNext",
     "target": "ES6",
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noStrictGenericChecks": false,
+    "allowJs": true,
+    "declaration": true,
     "jsx": "react-jsx"
   }
 }

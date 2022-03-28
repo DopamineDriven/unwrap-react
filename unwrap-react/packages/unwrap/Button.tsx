@@ -9,7 +9,6 @@ export const Button = ({
       <span {...span} className="sr-only">
         Did you a heckin inject
       </span>
-      
     </button>
   );
 };
