@@ -1,6 +1,8 @@
 {
-  "name": "unwrap",
-  "version": "0.0.0",
+  "name": "unwrap-react",
+  "author": "Andrew Ross",
+  "description": "Reacts Intrinsic Props Exposed for Consumption",
+  "version": "0.1.9",
   "main": "./index.tsx",
   "types": "**/*.{tsx|d.ts|ts}",
   "license": "MIT",
@@ -8,6 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "tsconfig": "*",
